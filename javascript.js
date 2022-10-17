@@ -1,5 +1,3 @@
-// ./public/javascript.js
-
 // Get the current username from the cookies
 var user = cookie.get('user');
 if (!user) {
