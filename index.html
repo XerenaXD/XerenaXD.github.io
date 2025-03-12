@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Currency Gambling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fake Currency Gambling</h1>
+        <p>Balance: <span id="balance">1000</span> Coins</p>
+        
+        <!-- Dropdown to select game -->
+        <label for="gameSelect">Choose a game:</label>
+        <select id="gameSelect" onchange="changeGame()">
+            <option value="dice">Dice Roll</option>
+            <option value="coinflip">Coinflip</option>
+            <option value="blackjack">Blackjack</option>
+            <option value="poker">Poker (AI)</option>
+            <option value="crash">Crash</option>
+            <option value="plinko">Plinko</option>
+        </select>
+
+        <div id="gameArea"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
